@@ -2,6 +2,13 @@
 <head>
 
   <title> 404 - Mission page </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
   
   <style>
     body {
@@ -9,7 +16,7 @@
       margin: 0;
       background-color: rgba(229, 57, 53, 0.8);
     }
-    .main {
+    .main-container {
       width: 300px;
       margin: auto;
       position: relative;
@@ -25,7 +32,7 @@
       margin-top: 10px;
       padding: 10px;
     }
-    h2 {
+    .sub-text {
       font-size: 40px;
       font-family: impact;
       color: black;
@@ -43,7 +50,7 @@
     a:hover {
       color: #1565c0;
     }
-    h1 {
+    .num {
       font-size: 110px;
       font-family: impact;
       margin: auto;
@@ -104,10 +111,27 @@
 </head>
   
   <body>
-    <div class="main">
-      <h1><strong>44</strong></h1>
+        <nav class="blue darken-3 lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a style="font-family: Futura; color: #e0e0e0" id="logo-container" href="#" class="brand-logo">videos-hacktoberfest</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav">
+            <li style="color: #e0e0e0"><a href="/">Home</a></li>
+            <li style="color: #e0e0e0"><a href="/videos.html">Videos</a></li>
+            <li><a href="https://github.com/evanwaltersdev/videos-hacktoberfest/blob/master/README.md">Add a video</a>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    
+    
+    <div class="main-container">
+      <h1 class="num"><strong>44</strong></h1>
       <div class="foreground">
-        <h2> Oops! </h2>
+        <h2 class="sub-text> Oops! </h2>
         <p> This page seems to be missing. Sorry.</p>
 
         <a href="index.html"> Go home </a>
@@ -124,6 +148,37 @@
       </div>
 
   </div>
+                              
+  <footer class="page-footer blue darken-3">
+
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+
+          <h5 style="font-family: Futura; color: #212121; font-size: 40px">About the creator</h5>
+          <p class="grey-text text-lighten-4">A few years ago I was stuck trying to learn how to use GitHub. Now that I have learned a thing or two, I have set out on a mission to help as many people as I can earn their Hacktoberfest shirt!</p>
+
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 style="font-family: Futura; color: #212121; font-size: 40px">Socials</h5>
+          <ul>
+            <li><a class="white-text" href="https://github.com/evanwaltersdev">GitHub</a></li>
+            <li><a class="white-text" href="https://twitter.com/evanwaltersdev">Twitter</a></li>
+          </ul>
+        </div>
+
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Powered by <a class="red-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+
+      </div>
+      
+      
+</footer>                            
+                              
  </body>
 
 </html>
