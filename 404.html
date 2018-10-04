@@ -1,1 +1,127 @@
-<html></html>
+<html>
+<head>
+  <title> 404 - Mission page </title>
+  
+  <style>
+    body {
+      overflow: hidden;
+      margin: 0;
+      background-color: rgba(229, 57, 53, 0.8);
+    }
+    .main {
+      width: 300px;
+      margin: auto;
+      position: relative;
+      margin-top: 50px;
+    }
+    .foreground {
+      width: 100%;
+      background-color: #e53935;
+      position: absolute;
+      z-index: 20;
+      color: white;
+      text-align: center;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    h2 {
+      font-size: 40px;
+      font-family: impact;
+      color: black;
+    }
+    p {
+      font-weight: 500;
+      font-size: 20px;
+    }
+    a {
+      color: black;
+      font-family: impact;
+      text-decoration: none;
+      text-align: center;
+    }
+    a:hover {
+      color: #1565c0;
+    }
+    h1 {
+      font-size: 110px;
+      font-family: impact;
+      margin: auto;
+      letter-spacing: 110px;
+      margin-left: 30px;
+      text-shadow: 5px 5px 5px white;
+    }
+    .zero {
+      position: absolute;
+      top: 70px;
+      right: 106px;
+    }
+    .head {
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      border-radius: 50%;
+      position: relative;
+    }
+    .eye {
+      width: 20%;
+      height: 40%;
+      background-color: white;
+      border-radius: 35%;
+      position: absolute;
+      top: 20%;
+    }
+    .eye-l {
+      left: 25%;
+    }
+    .eye-r {
+      right: 25%;
+    }
+
+    .pupil {
+      width: 70%;
+      height: 30%;
+      background-color: #1565c0;
+      border-radius: 50%;
+      position: absolute;
+      top: 20%;
+      left: 15%;
+      animation: blink 2.5s infinite;
+    }
+    @keyframes blink {
+      0% {
+        height: 10%;
+      }
+      10% {
+        height: 30%;
+      }
+      100% {
+        height: 30%;
+      }
+    }
+
+  </style>
+</head>
+  
+  <body>
+    <div class="main">
+      <h1><strong>44</strong></h1>
+      <div class="foreground">
+        <h2> Oops! </h2>
+        <p> This page seems to be missing. Sorry.</p>
+
+        <a href="#"> Go home </a>
+      </div>
+      <div class="zero">
+        <div class="head">
+          <div class="eye eye-l">
+            <div class="pupil"></div>
+          </div>
+          <div class="eye eye-r">
+            <div class="pupil"></div>
+          </div>
+        </div>
+      </div>
+
+</div>
+  </body>
+</html>
