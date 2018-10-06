@@ -1,1 +1,89 @@
-<html></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Home</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        .container .row {
+            margin: 0 auto;
+        }
+
+        .error-header {
+            font-size: 36px !important;
+            font-weight: 900 !important;
+        }
+
+        .error-message {
+            font-size: 20px !important;
+            font-weight: 300 !important;
+        }
+
+        .error-proposed-solution {
+            margin-top: 5% !important;
+            font-size: 14px !important;
+            font-weight: 100 !important;
+        }
+
+        .error-container {
+            padding-left: 20px !important;
+        }
+
+        .error-image-container {
+            padding: 0% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row valign-wrapper">
+            <div class="col s12 m7">
+                <div class="card horizontal custom-card blue-grey darken-1">
+                    <div class="col s12 m6 valign error-image-container">
+                        <img class="error-img" height="90%" src="imgs/developer.svg">
+                    </div>
+                    <div class="card-stacked error-container">
+                        <div class="card-content white-text">
+                            <span class="card-title error-header">404</span>
+                            <hr/>
+                            <p class="error-message">
+                                Sorry, looks like the page you requested is missing. Don't worry though, we have the best developer working on finding it.
+                            </p>
+                            <span class="error-proposed-solution">
+                                For the mean time you can click the button below to navigate to the homepage.
+                            </span> </div>
+                        <div class="card-action error-go-back">
+                            <a class="waves-effect waves-light btn">
+                                <i class="material-icons left">home</i>
+                                Go Back Home
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
