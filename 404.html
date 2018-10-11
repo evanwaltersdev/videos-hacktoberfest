@@ -1,12 +1,63 @@
+<!DOCTYPE html>
 <html>
 <head>
-<title>404 - no digidestiny</title>
-<link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet'>
+<title>404 - Not Found :(</title>
+	
+<link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+	
+<style>
+	nav{
+		background-color: transparent !important;
+		box-shadow: none;
+		padding: 15px 0;
+	}
+	
+	.content{
+		background: linear-gradient(20deg, rgb(27, 44, 64) 0%, rgb(25, 116, 150) 100%);
+	}
+	
+	h4{
+		font-weight: lighter;
+		margin: 10px 0 25px;
+		color: white;
+	}
+	
+	.content, .info{
+		height: 100vh;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	
+	.info{
+		justify-content: center;
+	}
+	
+</style>	
 </head>
-<body style="text-align:center; font-family: 'Patrick Hand SC'; font-size: 1.3em;">
-<br/>
-<h1>Unable to connect to digidestiny...</h1>
-<img src="http://pixelartmaker.com/art/2febaeaaff7ff79.png">
+<body>
+<div class="content">
+	<nav role="navigation">
+		<div class="nav-wrapper container"><a style="font-family: Futura; color: #e0e0e0" id="logo-container" href="index.html" class="brand-logo">videos-hacktoberfest</a>
+		  <ul class="right hide-on-med-and-down">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="/videos.html">Videos</a></li>
+		  </ul>
 
+		  <ul id="nav-mobile" class="sidenav">
+			<li style="color: #e0e0e0"><a href="index.html">Home</a></li>
+			<li style="color: #e0e0e0"><a href="/videos.html">Videos</a></li>
+			<li><a href="https://github.com/evanwaltersdev/videos-hacktoberfest/blob/master/README.md">Add a video</a>
+		  </ul>
+		  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
+	<div class="info">
+		<img src="emoji.png" alt="Thinking" width="100">
+		<h4>Hmm... Seems that this page doesn't exist</h4>
+		<a class="btn-large" href="index.html">Return to Homepage</a>
+	</div>
+</div>
 </body>
 </html>

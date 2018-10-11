@@ -1,0 +1,12 @@
+/nbproject/private/
+
+# Ignore MacOS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Ignore Windows generated files
+ehthumbs.db
+Thumbs.db
